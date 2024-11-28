@@ -40,6 +40,16 @@ export default {
                 "chart-3": "hsl(var(--chart-3))",
                 "chart-4": "hsl(var(--chart-4))",
                 "chart-5": "hsl(var(--chart-5))",
+                "sidebar-background": "hsl(var(--sidebar-background))",
+                "sidebar-foreground": "hsl(var(--sidebar-foreground))",
+                "sidebar-primary": "hsl(var(--sidebar-primary))",
+                "sidebar-primary-foreground":
+                    "hsl(var(--sidebar-primary-foreground))",
+                "sidebar-accent": "hsl(var(--sidebar-accent))",
+                "sidebar-accent-foreground":
+                    "hsl(var(--sidebar-accent-foreground))",
+                "sidebar-border": "hsl(var(--sidebar-border))",
+                "sidebar-ring": "hsl(var(--sidebar-ring))",
             },
         },
     },

@@ -1,4 +1,4 @@
-<header class="flex h-14 items-center gap-4 px-4 lg:h-[60px] lg:px-6">
+<header class="flex h-14 items-center border-b gap-4 px-4 lg:h-[60px] lg:px-6">
     <button id="toggle-sidebar" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 w-9 shrink-0 md:hidden">
         <svg 
         xmlns="http://www.w3.org/2000/svg" 

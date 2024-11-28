@@ -1,30 +1,37 @@
-<div class="hidden border-r bg-muted/40 md:block">
+<div class="hidden border-r bg-sidebar-background text-sidebar-foreground md:block">
     <div class="flex h-full max-h-screen flex-col gap-2">
-        <div class="flex h-14 items-center px-4 lg:h-[60px] lg:px-6">
-            <a href="#" class="flex items-center gap-2 font-semibold">
-                <!-- Logo -->
-                <svg 
-                class="h-6 w-6" 
-                xmlns="http://www.w3.org/2000/svg" 
-                width="24" 
-                height="24" 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                stroke="currentColor" 
-                stroke-width="2" 
-                stroke-linecap="round" 
-                stroke-linejoin="round">
-                    <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/>
-                    <path d="m3.3 7 8.7 5 8.7-5"/>
-                    <path d="M12 22V12"/>
-                </svg>
-                <span>PatPat.lk Admin</span>
-            </a>
+
+        <div class="flex flex-col gap-2">
+            <div class="flex w-full min-w-0 flex-col gap-1 px-2 py-2 lg:px-4">
+                <div class="relative">
+                    <a href="/dashboard" class="flex w-full items-center gap-2 overflow-hidden rounded-md px-3 py-2 text-left outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground h-12 text-sm">
+                        <div class="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+                            <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="24" 
+                            height="24" 
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            stroke-width="2" 
+                            stroke-linecap="round" 
+                            stroke-linejoin="round">
+                                <path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3"/>
+                            </svg>
+                        </div>
+                        <div class="grid flex-1 text-left text-sm leading-tight">
+                            <span class="truncate font-semibold">patpat.lk</span>
+                            <span class="truncate text-xs">Admin</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
+
         <!-- side nav -->
         <div class="flex-1">
             <nav class="grid items-start px-2 gap-1 text-sm font-medium lg:px-4">
-                <a href="#" class="flex items-center gap-3 rounded-lg bg-muted px-3 py-2 text-primary transition-all hover:text-primary hover:bg-muted">
+                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:bg-sidebar-accent hover:text-sidebar-accent-foreground bg-sidebar-accent text-sidebar-accent-foreground">
                     <svg 
                     class="h-4 w-4" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -42,7 +49,7 @@
                     Advertisements
                 </a>
 
-                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted">
+                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:bg-sidebar-accent hover:text-sidebar-accent-foreground">
                     <svg 
                     class="h-4 w-4" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -60,7 +67,7 @@
                     Banner ads
                 </a>
 
-                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted">
+                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:bg-sidebar-accent hover:text-sidebar-accent-foreground">
                     <svg 
                     class="h-4 w-4" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -81,7 +88,7 @@
                     Promotions
                 </a>
 
-                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted">
+                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:bg-sidebar-accent hover:text-sidebar-accent-foreground">
                     <svg 
                     class="h-4 w-4" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -102,7 +109,7 @@
                     Financial requests
                 </a>
 
-                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted">
+                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:bg-sidebar-accent hover:text-sidebar-accent-foreground">
                     <svg 
                     class="h-4 w-4" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -123,7 +130,7 @@
                     Officers
                 </a>
 
-                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted">
+                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:bg-sidebar-accent hover:text-sidebar-accent-foreground">
                     <svg  
                     class="h-4 w-4" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -144,7 +151,7 @@
                     Partners
                 </a>
 
-                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted">
+                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:bg-sidebar-accent hover:text-sidebar-accent-foreground">
                     <svg 
                     class="h-4 w-4" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -164,7 +171,7 @@
                     Centers
                 </a>
 
-                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted">
+                <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:bg-sidebar-accent hover:text-sidebar-accent-foreground">
                     <svg 
                     class="h-4 w-4" 
                     xmlns="http://www.w3.org/2000/svg" 
