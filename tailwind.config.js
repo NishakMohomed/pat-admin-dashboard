@@ -20,7 +20,7 @@ export default {
                 card: "hsl(var(--card))",
                 "card-foreground": "hsl(var(--card-foreground))",
                 popover: "hsl(var(--popover))",
-                "popover-foreground": "hasl(var(--popover-foreground))",
+                "popover-foreground": "hsl(var(--popover-foreground))",
                 primary: "hsl(var(--primary))",
                 "primary-foreground": "hsl(var(--primary-foreground))",
                 secondary: "hsl(var(--secondary))",
